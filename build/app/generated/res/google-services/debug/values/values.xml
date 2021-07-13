@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">39031509150-6laa0kuiifie6ugi2h8e8crrt37cfv1s.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">39031509150</string>
+    <string name="google_api_key" translatable="false">AIzaSyDSr1S1g_V9CLeRtml138XsQNelnrbzG6o</string>
+    <string name="google_app_id" translatable="false">1:39031509150:android:0a90c42e2a3350f628ab8f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDSr1S1g_V9CLeRtml138XsQNelnrbzG6o</string>
+    <string name="google_storage_bucket" translatable="false">imiego.appspot.com</string>
+    <string name="project_id" translatable="false">imiego</string>
+</resources>

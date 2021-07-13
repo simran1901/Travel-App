@@ -1,0 +1,558 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.imiego"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:41:3-77
+15-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:41:20-74
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:42:3-79
+16-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:42:20-76
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:43:3-83
+17-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:43:20-80
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+18-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+19-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+20-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+21-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:3:4-40:19
+26        android:name="androidx.multidex.MultiDexApplication"
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] /home/simran/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:5:9-43
+30        android:label="ImieGo" >
+30-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:4:9-31
+31        <activity
+31-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:6:9-34:20
+32            android:name="com.example.imiego.MainActivity"
+32-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:7:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:10:13-163
+34            android:hardwareAccelerated="true"
+34-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:11:13-47
+35            android:launchMode="singleTop"
+35-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:8:13-43
+36            android:theme="@style/LaunchTheme"
+36-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:9:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:12:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:17:13-20:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:18:15-70
+47                android:resource="@style/NormalTheme" />
+47-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:19:15-52
+48            <!--
+49                 Displays an Android View that continues showing the launch screen
+50                 Drawable until Flutter paints its first frame, then this splash
+51                 screen fades out. A splash screen is useful to avoid any visual
+52                 gap between the end of Android's launch screen and the painting of
+53                 Flutter's first frame.
+54            -->
+55            <meta-data
+55-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:26:13-29:17
+56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+56-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:27:15-79
+57                android:resource="@drawable/launch_background" />
+57-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:28:15-61
+58
+59            <intent-filter>
+59-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:30:13-33:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:31:17-68
+60-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:31:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:32:17-76
+62-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:32:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:37:9-39:33
+70            android:name="flutterEmbedding"
+70-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:38:13-44
+71            android:value="2" />
+71-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:39:13-30
+72
+73        <service
+73-->[:firebase_storage] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[:firebase_storage] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:76:13-37
+77            <meta-data
+77-->[:firebase_storage] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+78-->[:firebase_storage] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:firebase_storage] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+80            <meta-data
+80-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+81-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+83            <meta-data
+83-->[:cloud_firestore] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+84-->[:cloud_firestore] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:cloud_firestore] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+86            <meta-data
+86-->[:firebase_auth] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+87-->[:firebase_auth] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:firebase_auth] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+89            <meta-data
+89-->[:firebase_core] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+90-->[:firebase_core] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_core] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:77:13-79:85
+93                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+93-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:78:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:79:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-messaging:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+96                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+96-->[com.google.firebase:firebase-messaging:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-messaging:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-datatransport:17.0.10] /home/simran/.gradle/caches/transforms-2/files-2.1/33a2e87ed664f7f4a3db96bc86d48647/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+99                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+99-->[com.google.firebase:firebase-datatransport:17.0.10] /home/simran/.gradle/caches/transforms-2/files-2.1/33a2e87ed664f7f4a3db96bc86d48647/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-datatransport:17.0.10] /home/simran/.gradle/caches/transforms-2/files-2.1/33a2e87ed664f7f4a3db96bc86d48647/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+102                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+102-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-firestore:22.1.2] /home/simran/.gradle/caches/transforms-2/files-2.1/d0faf97514a224ed3f090e4a1c96567e/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:20:13-22:85
+105                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+105-->[com.google.firebase:firebase-firestore:22.1.2] /home/simran/.gradle/caches/transforms-2/files-2.1/d0faf97514a224ed3f090e4a1c96567e/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:21:17-111
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-firestore:22.1.2] /home/simran/.gradle/caches/transforms-2/files-2.1/d0faf97514a224ed3f090e4a1c96567e/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:22:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-storage:19.2.2] /home/simran/.gradle/caches/transforms-2/files-2.1/4845b39a08f90c7eb82a272b8ff94bfa/jetified-firebase-storage-19.2.2/AndroidManifest.xml:33:13-35:85
+108                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+108-->[com.google.firebase:firebase-storage:19.2.2] /home/simran/.gradle/caches/transforms-2/files-2.1/4845b39a08f90c7eb82a272b8ff94bfa/jetified-firebase-storage-19.2.2/AndroidManifest.xml:34:17-107
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-storage:19.2.2] /home/simran/.gradle/caches/transforms-2/files-2.1/4845b39a08f90c7eb82a272b8ff94bfa/jetified-firebase-storage-19.2.2/AndroidManifest.xml:35:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/63d7a7a2521f9f6bcc7ab8917213734e/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
+111                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+111-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/63d7a7a2521f9f6bcc7ab8917213734e/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:31:17-139
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/63d7a7a2521f9f6bcc7ab8917213734e/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:32:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-installations:16.3.5] /home/simran/.gradle/caches/transforms-2/files-2.1/c5fe3d870dce4eed5d8b213f2bf733ca/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+114                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+114-->[com.google.firebase:firebase-installations:16.3.5] /home/simran/.gradle/caches/transforms-2/files-2.1/c5fe3d870dce4eed5d8b213f2bf733ca/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-installations:16.3.5] /home/simran/.gradle/caches/transforms-2/files-2.1/c5fe3d870dce4eed5d8b213f2bf733ca/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+116            <!--
+117                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+118                clients to use it as well, by defining this registrar in their own core/common library.
+119            -->
+120            <meta-data
+120-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+121                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+121-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+123        </service>
+124
+125        <provider
+125-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+126            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+126-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+127            android:authorities="com.example.imiego.flutter.image_provider"
+127-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+128            android:exported="false"
+128-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+129            android:grantUriPermissions="true" >
+129-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+130            <meta-data
+130-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+131                android:name="android.support.FILE_PROVIDER_PATHS"
+131-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+132                android:resource="@xml/flutter_image_picker_file_paths" />
+132-->[:image_picker] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+133        </provider>
+134
+135        <service
+135-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+136            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+136-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+137            android:exported="false"
+137-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+139        <service
+139-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+140            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+140-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+141            android:exported="false" >
+141-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+142            <intent-filter>
+142-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+143                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+143-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+143-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+144            </intent-filter>
+145        </service>
+146
+147        <receiver
+147-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+148            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+148-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+149            android:exported="true"
+149-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+150            android:permission="com.google.android.c2dm.permission.SEND" >
+150-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+151            <intent-filter>
+151-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+152                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+152-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+152-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+153            </intent-filter>
+154        </receiver>
+155
+156        <provider
+156-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+157            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+157-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+158            android:authorities="com.example.imiego.flutterfirebasemessaginginitprovider"
+158-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+159            android:exported="false"
+159-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+160            android:initOrder="99" />
+160-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+161
+162        <activity
+162-->[:razorpay_flutter] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:20
+163            android:name="com.razorpay.CheckoutActivity"
+163-->[:razorpay_flutter] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-57
+164            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+164-->[com.razorpay:checkout:1.6.6] /home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/AndroidManifest.xml:20:13-83
+165            android:label="Razorpay Checkout"
+165-->[:razorpay_flutter] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/razorpay_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-46
+166            android:theme="@style/CheckoutTheme" >
+166-->[com.razorpay:checkout:1.6.6] /home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/AndroidManifest.xml:21:13-49
+167            <intent-filter>
+167-->[com.razorpay:checkout:1.6.6] /home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/AndroidManifest.xml:22:13-28:29
+168                <action android:name="android.intent.action.MAIN" />
+168-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:31:17-68
+168-->/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/AndroidManifest.xml:31:25-66
+169
+170                <data
+170-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:39:17-42:51
+171                    android:host="rzp.io"
+171-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:40:21-49
+172                    android:scheme="io.rzp" />
+172-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:42:21-48
+173            </intent-filter>
+174        </activity>
+175        <activity
+175-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:27:9-44:20
+176            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+176-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:28:13-80
+177            android:excludeFromRecents="true"
+177-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:29:13-46
+178            android:exported="true"
+178-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:30:13-36
+179            android:launchMode="singleTask"
+179-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:31:13-44
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+180-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:32:13-72
+181            <intent-filter>
+181-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:33:13-43:29
+182                <action android:name="android.intent.action.VIEW" />
+182-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:17-69
+182-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:25-66
+183
+184                <category android:name="android.intent.category.DEFAULT" />
+184-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
+184-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+185                <category android:name="android.intent.category.BROWSABLE" />
+185-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:17-78
+185-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:27-75
+186
+187                <data
+187-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:39:17-42:51
+188                    android:host="firebase.auth"
+188-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:40:21-49
+189                    android:path="/"
+189-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:41:21-37
+190                    android:scheme="genericidp" />
+190-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:42:21-48
+191            </intent-filter>
+192        </activity>
+193        <activity
+193-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:45:9-62:20
+194            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+194-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:46:13-79
+195            android:excludeFromRecents="true"
+195-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:47:13-46
+196            android:exported="true"
+196-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:48:13-36
+197            android:launchMode="singleTask"
+197-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:49:13-44
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+198-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:50:13-72
+199            <intent-filter>
+199-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:51:13-61:29
+200                <action android:name="android.intent.action.VIEW" />
+200-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:17-69
+200-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:25-66
+201
+202                <category android:name="android.intent.category.DEFAULT" />
+202-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
+202-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+203                <category android:name="android.intent.category.BROWSABLE" />
+203-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:17-78
+203-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:27-75
+204
+205                <data
+205-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:39:17-42:51
+206                    android:host="firebase.auth"
+206-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:40:21-49
+207                    android:path="/"
+207-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:41:21-37
+208                    android:scheme="recaptcha" />
+208-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:42:21-48
+209            </intent-filter>
+210        </activity>
+211
+212        <service
+212-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:64:9-73:19
+213            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+213-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:65:13-101
+214            android:enabled="true"
+214-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:66:13-35
+215            android:exported="false" >
+215-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:67:13-37
+216            <intent-filter>
+216-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:68:13-72:29
+217                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+217-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:69:17-89
+217-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:69:25-86
+218
+219                <category android:name="android.intent.category.DEFAULT" />
+219-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
+219-->[com.google.firebase:firebase-auth:20.0.3] /home/simran/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+220            </intent-filter>
+221        </service>
+222
+223        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+223-->[com.razorpay:checkout:1.6.6] /home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/AndroidManifest.xml:12:9-16:20
+223-->[com.razorpay:checkout:1.6.6] /home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/AndroidManifest.xml:12:19-63
+224            <intent-filter>
+224-->[com.razorpay:checkout:1.6.6] /home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/AndroidManifest.xml:13:13-15:29
+225                <action android:name="rzp.device_token.share" />
+225-->[com.razorpay:checkout:1.6.6] /home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/AndroidManifest.xml:14:17-65
+225-->[com.razorpay:checkout:1.6.6] /home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/AndroidManifest.xml:14:25-62
+226            </intent-filter>
+227        </receiver>
+228
+229        <activity
+229-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+230            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+230-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+231            android:excludeFromRecents="true"
+231-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+232            android:exported="false"
+232-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+233            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+233-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+234        <!--
+235            Service handling Google Sign-In user revocation. For apps that do not integrate with
+236            Google Sign-In, this service will never be started.
+237        -->
+238        <service
+238-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+239            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+239-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+240            android:exported="true"
+240-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+241            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+241-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+242            android:visibleToInstantApps="true" />
+242-->[com.google.android.gms:play-services-auth:19.0.0] /home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+243        <!--
+244             FirebaseMessagingService performs security checks at runtime,
+245             but set to not exported to explicitly avoid allowing another app to call it.
+246        -->
+247        <service
+247-->[com.google.firebase:firebase-messaging:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+248            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+248-->[com.google.firebase:firebase-messaging:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+249            android:directBootAware="true"
+249-->[com.google.firebase:firebase-messaging:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+250            android:exported="false" >
+250-->[com.google.firebase:firebase-messaging:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+251            <intent-filter android:priority="-500" >
+251-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+252                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+252-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+252-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+253            </intent-filter>
+254        </service>
+255        <service
+255-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/simran/.gradle/caches/transforms-2/files-2.1/da413a0a9f4d7e6837e34adcfb20065b/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+256            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+256-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/simran/.gradle/caches/transforms-2/files-2.1/da413a0a9f4d7e6837e34adcfb20065b/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+257            android:exported="false" >
+257-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/simran/.gradle/caches/transforms-2/files-2.1/da413a0a9f4d7e6837e34adcfb20065b/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+258            <meta-data
+258-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/simran/.gradle/caches/transforms-2/files-2.1/da413a0a9f4d7e6837e34adcfb20065b/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+259                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+259-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/simran/.gradle/caches/transforms-2/files-2.1/da413a0a9f4d7e6837e34adcfb20065b/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+260                android:value="cct" />
+260-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/simran/.gradle/caches/transforms-2/files-2.1/da413a0a9f4d7e6837e34adcfb20065b/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+261        </service>
+262
+263        <receiver
+263-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+264            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+264-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+265            android:exported="true"
+265-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+266            android:permission="com.google.android.c2dm.permission.SEND" >
+266-->[com.google.firebase:firebase-iid:21.0.1] /home/simran/.gradle/caches/transforms-2/files-2.1/ef32bf160fc28f20d5f4df359d7c3b06/jetified-firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+267            <intent-filter>
+267-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+268                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+268-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+268-->[:firebase_messaging] /home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+269            </intent-filter>
+270        </receiver>
+271
+272        <provider
+272-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+273            android:name="com.google.firebase.provider.FirebaseInitProvider"
+273-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+274            android:authorities="com.example.imiego.firebaseinitprovider"
+274-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+275            android:directBootAware="true"
+275-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+276            android:exported="false"
+276-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+277            android:initOrder="100" />
+277-->[com.google.firebase:firebase-common:19.5.0] /home/simran/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+278
+279        <receiver
+279-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:29:9-33:20
+280            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+280-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:30:13-85
+281            android:enabled="true"
+281-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:31:13-35
+282            android:exported="false" >
+282-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:32:13-37
+283        </receiver>
+284
+285        <service
+285-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:35:9-38:40
+286            android:name="com.google.android.gms.measurement.AppMeasurementService"
+286-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:36:13-84
+287            android:enabled="true"
+287-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:37:13-35
+288            android:exported="false" />
+288-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:38:13-37
+289        <service
+289-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:39:9-43:72
+290            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+290-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:40:13-87
+291            android:enabled="true"
+291-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:41:13-35
+292            android:exported="false"
+292-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:42:13-37
+293            android:permission="android.permission.BIND_JOB_SERVICE" />
+293-->[com.google.android.gms:play-services-measurement:18.0.2] /home/simran/.gradle/caches/transforms-2/files-2.1/597b2f0b8c3a797cc8fdd071fd492a7a/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:43:13-69
+294
+295        <activity
+295-->[com.google.android.gms:play-services-base:17.1.0] /home/simran/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+296            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+296-->[com.google.android.gms:play-services-base:17.1.0] /home/simran/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+297            android:exported="false"
+297-->[com.google.android.gms:play-services-base:17.1.0] /home/simran/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+298            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+298-->[com.google.android.gms:play-services-base:17.1.0] /home/simran/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+299
+300        <meta-data
+300-->[com.google.android.gms:play-services-basement:17.1.1] /home/simran/.gradle/caches/transforms-2/files-2.1/91a375ef3848beb3cab517861de39319/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+301            android:name="com.google.android.gms.version"
+301-->[com.google.android.gms:play-services-basement:17.1.1] /home/simran/.gradle/caches/transforms-2/files-2.1/91a375ef3848beb3cab517861de39319/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+302            android:value="@integer/google_play_services_version" />
+302-->[com.google.android.gms:play-services-basement:17.1.1] /home/simran/.gradle/caches/transforms-2/files-2.1/91a375ef3848beb3cab517861de39319/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+303
+304        <service
+304-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/simran/.gradle/caches/transforms-2/files-2.1/a194d1d98a123ce0f3f0d40e3633aa85/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+305            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+305-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/simran/.gradle/caches/transforms-2/files-2.1/a194d1d98a123ce0f3f0d40e3633aa85/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+306            android:exported="false"
+306-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/simran/.gradle/caches/transforms-2/files-2.1/a194d1d98a123ce0f3f0d40e3633aa85/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+307            android:permission="android.permission.BIND_JOB_SERVICE" >
+307-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/simran/.gradle/caches/transforms-2/files-2.1/a194d1d98a123ce0f3f0d40e3633aa85/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+308        </service>
+309
+310        <receiver
+310-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/simran/.gradle/caches/transforms-2/files-2.1/a194d1d98a123ce0f3f0d40e3633aa85/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+311            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+311-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/simran/.gradle/caches/transforms-2/files-2.1/a194d1d98a123ce0f3f0d40e3633aa85/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+312            android:exported="false" />
+312-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/simran/.gradle/caches/transforms-2/files-2.1/a194d1d98a123ce0f3f0d40e3633aa85/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+313    </application>
+314
+315</manifest>
