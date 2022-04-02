@@ -39,10 +39,7 @@ class ProfileScreen extends StatelessWidget {
                         radius: 90,
                         backgroundImage: NetworkImage(docs['image_url']),
                       ),
-                      SizedBox(width: 20),
                       Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Text(
                             'Total Journeys',
@@ -51,17 +48,22 @@ class ProfileScreen extends StatelessWidget {
                           Text(docs['journeys'].toString()),
                           SizedBox(height: 10),
                           Text(
-                            'Buses',
+                            'Travel',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           Text(docs['travels'].toString()),
                           SizedBox(height: 10),
                           Text(
-                            'Others',
+                            'Transport',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                           Text(docs['transports'].toString()),
                           SizedBox(height: 10),
+                          Text(
+                            'Emergencies',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          Text(docs['emergencies'].toString()),
                         ],
                       ),
                     ],

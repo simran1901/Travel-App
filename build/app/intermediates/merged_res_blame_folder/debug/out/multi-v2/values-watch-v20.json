@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Travel-App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/home/simran/.gradle/caches/transforms-2/files-2.1/93a5d965ccc74027f18e95e47280f178/jetified-play-services-auth-19.0.0/res/values-watch-v20/values.xml",

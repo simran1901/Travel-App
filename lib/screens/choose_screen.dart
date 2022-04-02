@@ -6,6 +6,7 @@ import 'package:imiego/screens/history_screen.dart';
 import 'package:imiego/screens/offer_screen.dart';
 import 'package:imiego/screens/profile_screen.dart';
 
+import './transport_screen.dart';
 import './travel_screen.dart';
 import '../widgets/choice.dart';
 
@@ -49,31 +50,41 @@ class _ChooseScreenState extends State<ChooseScreen> {
             ),
         ],
       ),
-      body: Center(
-        child: Container(
-          alignment: Alignment.center,
-          height: size.height * 0.80,
-          width: size.width * 0.88,
-          child: Choice(
+      body: GridView(
+        padding: const EdgeInsets.all(25),
+        children: <Widget>[
+          Choice(
             'Travel',
             'https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f709d82fa4f131fa2114a74%2F0x0.jpg',
             () {
               Navigator.of(context).pushNamed(TravelScreen.routeName);
             },
           ),
+          Choice(
+            'Transport',
+            'https://www.unescap.org/sites/default/d8files/2020-12/Large%20image-AsianHighway.png',
+            () {
+              Navigator.of(context).pushNamed(TransportScreen.routeName);
+            },
+          ),
+        ],
+        gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+          maxCrossAxisExtent: size.width,
+          childAspectRatio: (size.height - 60) / 290,
+          crossAxisSpacing: 20,
+          mainAxisSpacing: 20,
         ),
       ),
-      floatingActionButtonLocation:
-          user != null ? FloatingActionButtonLocation.endFloat : null,
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       floatingActionButton: user != null
           ? FloatingActionButton(
-              highlightElevation: 20,
               backgroundColor: Theme.of(context).primaryColor,
               onPressed: () {
                 Navigator.of(context).pushNamed(ContactScreen.routeName);
               },
               child: Icon(Icons.message),
-              elevation: 10,
+              highlightElevation: 5,
+              elevation: 6,
               tooltip: 'Chat Support',
               hoverElevation: 15,
               // heroTag: Text('Chat Support'),
@@ -103,7 +114,47 @@ class _ChooseScreenState extends State<ChooseScreen> {
                 Navigator.of(context).popAndPushNamed(TravelScreen.routeName);
               },
             ),
-
+            ListTile(
+              leading: Icon(Icons.bus_alert),
+              title: Text('Search your transport'),
+              onTap: () {
+                Navigator.of(context)
+                    .popAndPushNamed(TransportScreen.routeName);
+              },
+            ),
+            if (user != null)
+              ListTile(
+                leading: Icon(Icons.location_on),
+                title: Text('Track your ride'),
+                onTap: () {
+                  showDialog(
+                    context: context,
+                    builder: (BuildContext ctx) => AlertDialog(
+                      title: Text('This is a paid feature'),
+                      content: Text(
+                          'This feature requires some APIs that are paid. Therefore, it will be added to the actual application and not the prototype.'),
+                      actions: [
+                        Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              ElevatedButton(
+                                style: ButtonStyle(
+                                  backgroundColor:
+                                      MaterialStateProperty.all<Color>(
+                                    Theme.of(context).primaryColor,
+                                  ),
+                                ),
+                                child: Text('Okay'),
+                                onPressed: () {
+                                  Navigator.of(ctx).pop();
+                                },
+                              ),
+                            ])
+                      ],
+                    ),
+                  );
+                },
+              ),
             ListTile(
               leading: Icon(Icons.card_giftcard),
               title: Text('Offers'),

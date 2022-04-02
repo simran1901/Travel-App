@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
+            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Travel-App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "/home/simran/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/res/values-kn/values.xml",

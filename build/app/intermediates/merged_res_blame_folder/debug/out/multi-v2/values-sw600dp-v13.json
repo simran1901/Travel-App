@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Travel-App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/home/simran/.gradle/caches/transforms-2/files-2.1/79f6ce4679843f176634afc9aa95bb09/jetified-checkout-1.6.6/res/values-sw600dp-v13/values-sw600dp-v13.xml",

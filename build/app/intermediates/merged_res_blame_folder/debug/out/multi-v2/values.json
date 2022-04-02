@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Travel-App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/simran/.gradle/caches/transforms-2/files-2.1/1d67e9f8fcd3c103d0f9ff5b012246e9/jetified-play-services-base-17.1.0/res/values/values.xml",
@@ -40,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "178",
+                        "endColumns": "77",
+                        "endOffsets": "255"
+                    },
+                    "to": {
+                        "startLines": "107",
+                        "startColumns": "4",
+                        "startOffsets": "7951",
+                        "endColumns": "81",
+                        "endOffsets": "8028"
+                    }
+                },
+                {
+                    "source": "/home/simran/Desktop/Coding/FlutterProjects/Travel-App/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -59,24 +76,7 @@
                     }
                 },
                 {
-                    "source": "/home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/res/values/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "178",
-                        "endColumns": "77",
-                        "endOffsets": "255"
-                    },
-                    "to": {
-                        "startLines": "107",
-                        "startColumns": "4",
-                        "startOffsets": "7951",
-                        "endColumns": "81",
-                        "endOffsets": "8028"
-                    }
-                },
-                {
-                    "source": "/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/android/app/src/main/res/values/colors.xml",
+                    "source": "/home/simran/Desktop/Coding/FlutterProjects/Travel-App/android/app/src/main/res/values/colors.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -112,23 +112,6 @@
                     }
                 },
                 {
-                    "source": "/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,198,279,383,491,611,701",
-                        "endColumns": "142,80,103,107,119,89,66",
-                        "endOffsets": "193,274,378,486,606,696,763"
-                    },
-                    "to": {
-                        "startLines": "106,108,109,110,111,112,113",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "7808,8033,8114,8218,8326,8446,8536",
-                        "endColumns": "142,80,103,107,119,89,66",
-                        "endOffsets": "7946,8109,8213,8321,8441,8531,8598"
-                    }
-                },
-                {
                     "source": "/home/simran/.gradle/caches/transforms-2/files-2.1/91a375ef3848beb3cab517861de39319/jetified-play-services-basement-17.1.1/res/values/values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -143,6 +126,23 @@
                         "startOffsets": "5337,6515",
                         "endColumns": "67,166",
                         "endOffsets": "5400,6677"
+                    }
+                },
+                {
+                    "source": "/home/simran/Desktop/Coding/FlutterProjects/Travel-App/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,198,279,383,491,611,701",
+                        "endColumns": "142,80,103,107,119,89,66",
+                        "endOffsets": "193,274,378,486,606,696,763"
+                    },
+                    "to": {
+                        "startLines": "106,108,109,110,111,112,113",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "7808,8033,8114,8218,8326,8446,8536",
+                        "endColumns": "142,80,103,107,119,89,66",
+                        "endOffsets": "7946,8109,8213,8321,8441,8531,8598"
                     }
                 }
             ]

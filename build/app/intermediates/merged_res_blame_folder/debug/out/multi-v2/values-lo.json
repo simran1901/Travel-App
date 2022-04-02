@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Ticketing App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+            "outputFile": "/home/simran/Desktop/Coding/FlutterProjects/Travel-App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/home/simran/.gradle/caches/transforms-2/files-2.1/6838d3a2de70fca0b5bfebdfd543af98/jetified-firebase-messaging-21.0.1/res/values-lo/values.xml",

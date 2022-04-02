@@ -5,8 +5,10 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:imiego/screens/choose_screen.dart';
 import 'package:imiego/screens/contact_screen.dart';
 import 'package:imiego/screens/history_screen.dart';
+import 'package:imiego/screens/transport_results.dart';
 // import 'package:imiego/screens/transport_book_screen.dart';
 
+import './screens/transport_screen.dart';
 import './screens/verification_screen.dart';
 import './screens/auth_screen.dart';
 import './screens/search_results.dart';
@@ -49,6 +51,7 @@ class MyApp extends StatelessWidget {
       routes: {
         ChooseScreen.routeName: (context) => ChooseScreen(),
         TravelScreen.routeName: (context) => TravelScreen(),
+        TransportScreen.routeName: (context) => TransportScreen(),
         SearchResults.routeName: (context) => SearchResults(),
         SeatBookScreen.routeName: (context) => SeatBookScreen(),
         AuthScreen.routeName: (context) => AuthScreen(),
@@ -56,6 +59,7 @@ class MyApp extends StatelessWidget {
         OfferScreen.routeName: (context) => OfferScreen(),
         HistoryScreen.routeName: (context) => HistoryScreen(),
         ContactScreen.routeName: (context) => ContactScreen(),
+        TransportResults.routeName: (context) => TransportResults(),
         VerificationScreen.routeName: (context) => VerificationScreen(),
       },
     );
